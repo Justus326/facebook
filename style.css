@@ -196,7 +196,7 @@ h1:after{
 	  
   
   #bigformlogin{
-	  width:100%;
+	  width:80%;
 	  background:blue;
 	  
   }
@@ -212,7 +212,7 @@ h1:after{
   }
 
 #bigformcreatenewaccount{
-	  width:100%;
+	  width:180%;
 	  background:green;
   }
   
@@ -238,7 +238,7 @@ h1:after{
 	  float:right;
 	  margin-top:15%;
 	  margin-left:0%;
-	  margin-right:10%;	  
+	  margin-right:20%;	  
   }
   #footer{
 	  width:100%;
