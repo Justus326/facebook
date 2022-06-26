@@ -1,0 +1,323 @@
+
+body{
+	font-family:verdana;
+	font-size:12px;
+    background:;
+    
+   
+}
+body a{
+	 text-decoration:none;
+	 color:blue;
+	
+}
+#wrapper{
+	 background:;
+	 max-width:100%px;
+	 min-width:0px;
+	 margin:%;
+	 //border: 3px dashed blue;
+	 width:100%;
+	 height:100%;
+	 border:transparent;	
+	
+}
+
+#header{
+	height:200px;
+	width:100%;
+	margin:0px;
+}
+#header img{
+	height:200px;
+	width:100%;
+	margin:0px;
+	
+	
+}
+
+#form1{
+	
+	margin-left:30px;
+	margin-top:15px;
+	width:15%;
+	
+	
+}
+
+#form2{
+	
+	margin-left:25%;
+	margin-right:px;
+	margin-top:55px;
+	position:center;
+	
+}  
+
+ 
+#login{
+	margin-top:20px;
+	//margin-left:150px;
+	width:62%;
+	height:15%;
+	background-color:blue;
+	padding-bottom:6px;
+	border: 0px;
+	
+}
+#login h2{
+	 height:4px;
+	 color:white;
+	 font-size:13px;
+}
+#forgotpass{
+	 margin-left:30px;
+	 font-size:11px;
+	 
+	
+}
+
+
+h1{
+	 max-width:180px;
+	 text-align:center;
+	 //margin:auto;
+	 color:gray;
+	 font-weight:bold;
+	 font-size:10px;
+	 margin-top:10%;
+	 position:relative;
+	
+}
+
+h1:before{
+	 content: "";
+	 width: 70px;
+	 height: 2px;
+	 display: block;
+	 background: silver;
+	 position: absolute;
+	 top:50%;
+	 left: 0;
+	 
+
+	
+}
+
+h1:after{
+	 content: "";
+	 width: 70px;
+	 height: 2px;
+	 display: block;
+	 background: silver;
+	 position: absolute;
+	 top:50%;
+	 right: 0;
+	
+}
+
+#createnewaccount{
+	margin-top:20px;
+	margin-left:-15px;
+	width:75%;
+	height:7%;
+	background-color:green;
+	padding-bottom:6px;
+	border: 0px;
+	
+}
+#createnewaccount h4{
+	 height:3px;
+	 color:white;
+	 font-size:13px;
+}
+  #fbleft{
+	   background:;	
+      float:left;
+      width:23%;
+      margin-left:4%;
+     margin-top:-3%;	   
+	  
+  }
+#fbleft h2{
+	      color:blue;
+		  margin-left:3%;
+		  font-size:200%;
+		  font-weight:bold;
+		  margin-top:7%;
+}
+
+#fbleft h5{
+	      
+		  margin-left:3%;
+		  font-size:100%;
+		  font-weight:bold;
+		  
+}
+
+#fbleftadd{
+	      
+		  margin-left:3%;
+		  background:blue;
+		  width:25px;
+		  height:25px;
+		  border:none;
+	      
+		  
+}
+
+#fbleftadd h6{
+	      
+		 color:white;
+		 font-weight:bold;
+		 font-size:18px;
+		 text-align:center;
+		 margin-top:2px;
+		 margin-right:8px;
+		 margin-left:0px;
+		 margin-bottom:2px;
+		  
+}
+
+		  
+
+
+  #bigform2{
+	  
+	  background:white;	
+      float:right;
+      width:23%;
+      margin-right:10%;
+     margin-top:30%;	  
+	  
+  }
+  
+ 
+	  
+  
+  #bigformlogin{
+	  width:100%;
+	  background:blue;
+	  
+  }
+  #bigformlogin h2{
+	  font-size:12px;
+	  color:white;
+  }
+  
+  #bigform2 h3{
+	  font-size:9px;
+	  color:;
+	  margin-left:20%;
+  }
+
+#bigformcreatenewaccount{
+	  width:100%;
+	  background:green;
+  }
+  
+  #bigformcreatenewaccount h4{
+	  
+	  font-size:9px;
+	  color:white; 
+  }
+  
+  #parag{
+	  margin-left:-60%;
+	  float:right;
+	  margin-top:10%;
+      margin-right:0%;	   
+	  
+  }
+  
+  #parag a{
+	  color:black;
+  }
+  
+  #bigform1{
+	  float:right;
+	  margin-top:15%;
+	  margin-left:0%;
+	  margin-right:10%;	  
+  }
+  #footer{
+	  width:100%;
+      height:30%;
+      margin-top:20%;
+	   margin-left:-2%;	
+  }
+  
+  #nav{
+	  width:100%;
+       float:right;
+       margin-left:-1%;	   
+  }
+  #nav ul{
+	  list-style:none;
+	  
+  }
+  #nav ul li{
+	  width:2%;
+	  height:1%;
+	  float:right;
+	  padding:2%;
+	  font-size:8px;
+	  
+	  
+  }
+  
+  @media screen and (max-width:500px){
+	  
+	 #bigform2{
+		     display:none;
+	 } 
+  }
+  
+  
+  @media screen and (min-width:501px){
+	  
+	 #form2{
+		     display:none;
+	 } 
+  }
+  
+  @media screen and (min-width:501px){
+	  
+	 #form1{
+		     display:none;
+	 } 
+  }
+  
+  @media screen and (min-width:501px){
+	  
+	 #header{
+		     display:none;
+	 } 
+  }
+   @media screen and (max-width:500px){
+	  
+	 #fbleft{
+		     display:none;
+	 } 
+  }
+  
+  @media screen and (max-width:500px){
+	  
+	 #parag{
+		     display:none;
+	 } 
+  }
+  @media screen and (max-width:500px){
+	  
+	 #bigform1{
+		     display:none;
+	 } 
+  }
+  
+  @media screen and (max-width:500px){
+	  
+	 #footer{
+		     display:none;
+	 } 
+  }
+  
