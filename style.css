@@ -58,7 +58,7 @@ body a{
 #login{
 	margin-top:20px;
 	//margin-left:150px;
-	width:62%;
+	width:69%;
 	height:15%;
 	background-color:blue;
 	padding-bottom:6px;
@@ -212,7 +212,7 @@ h1:after{
   }
 
 #bigformcreatenewaccount{
-	  width:180%;
+	  width:80%;
 	  background:green;
   }
   
